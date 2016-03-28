@@ -1,0 +1,34 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost 
+127.0.0.1	localhost.com
+127.0.0.1	www.localhost.com
+127.0.0.1	visit.localhost.com
+127.0.0.1	sub.localhost.com
+127.0.0.1	auth.localhost.com
+127.0.0.1	history.localhost.com
+127.0.0.1	rule.localhost.com
+127.0.0.1	admin.localhost.com
+127.0.0.1	content.localhost.com
+
+127.0.0.1	bbl.xuebaapp.com
+
+192.168.99.100	docker
+
+10.2.1.57 monitor.xuebadev.com
+
+114.215.196.194  wgtest
+114.215.196.194  example.www.weiguyun.com
+114.215.196.194  example.video.weiguyun.com
+114.215.196.194  example.upload.weiguyun.com
+
+
+10.2.1.57 ooo-test     #ssh xintong.dai@ooo-test -p9922
+120.132.94.83 baolei   #ssh -A -p60022 xintong.dai@baolei,,,,, ssh wenba@oneone_monitor_001 9922
+10.2.1.22 xuebaapp     # code in /home/wenba/www/rdxx

@@ -20,15 +20,18 @@
  *
  * @property CI_Controller      $ci
  * @property Alarm_clock_Model  $acm
+ * @property Alarm_clock_tag_Model  $actm
  * @property User_clock_Model   $aum
  * @property User_clock_history_Model   $auhm
  * @property Checkpoint_Model   $cpm
 // * @property Friend_Model       $fm
  * @property Feed_Model         $fm
+ * @property Feed_Feedback_Model  $ffm
  * @property Feedresult_Model   $frm
  * @property Fav_Model          $favm
  * @property Literature_Model   $lm
  * @property Search_Model       $sm
+ * @property Admin_Model        $sam
  * @property Account_Model      $uam
  * @property User_center_Model  $ucm
  * @property Statistics_Model   $usm
@@ -36,8 +39,15 @@
  * @property Notice_Model       $nm
  * @property Ocr_Model          $om
  * @property Lib_limit          $lll
+ * @property Lib_limit          $lllim
  * @property Lib_split          $llsp
  * @property Smarty             $smarty
+ *
+ * @property Activity1459137854_Model   $m7854
+ * @property Activity20160413_sign_up_Model     $m0413su
+ * @property Activity20160413_article_Model     $m0413a
+ * @property Activity20160413_match_Model       $m0413m
+ * @property Activity20160413_article_Model       $m0413a
  *
  */
 class my_models

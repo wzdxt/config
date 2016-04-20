@@ -68,6 +68,7 @@
  * @property CI_Security $security                Security Class, xss, csrf, etc...
  * @property CI_Driver_Library $driver            CodeIgniter Driver Library Class
  * @property CI_Cache $cache                      CodeIgniter Caching Class
+ * @property CI_HttpClient $httpclient
  */
 class CI_Controller extends my_models
 {
